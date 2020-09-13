@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Bubble Sort</title>
-</head>
-<body>
-
-<script>
-
 //Sort an array of integer with Bubble Sort algorithm
 
 var bubbleSort = function (arr) {
@@ -31,9 +22,4 @@ var bubbleSort = function (arr) {
 
 var arr1 = [3,1,4,5,2];
 
-document.write(bubbleSort(arr1));
-
-</script>
-
-</body>
-</html>
+console.log(bubbleSort(arr1));
