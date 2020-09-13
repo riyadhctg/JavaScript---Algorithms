@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Insertion Sort</title>
-</head>
-<body>
-
-<script>
-
 //Sort an array of integer with Insetion Sort algorithm
 
 var sortedArray = function (arr) {
@@ -24,9 +15,4 @@ var sortedArray = function (arr) {
 
 var arr1 = [2,1,4,-5,6,3];
 
-document.write(sortedArray(arr1));
-
-</script>
-
-</body>
-</html>
+console.log(sortedArray(arr1));
