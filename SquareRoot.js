@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Square Root</title>
-</head>
-<body>
-
-<script>
-
 //Find square root of a Number
 
 var squareRoot = function (number) {
@@ -30,9 +21,4 @@ var squareRoot = function (number) {
 
 }
 
-document.write(squareRoot(64));
-
-</script>
-
-</body>
-</html>
+console.log(squareRoot(64));
