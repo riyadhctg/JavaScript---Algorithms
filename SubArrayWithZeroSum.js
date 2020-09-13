@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Sub Array with Zero Sum</title>
-</head>
-<body>
-
-<script>
-
 //Find if there is a subarray with 0 sum
 
 var newMap = new Map();
@@ -34,9 +25,4 @@ var doesSubArrayExists = function(arr){
 
 var arr1 = [89, 98, 76, -3, -1, 4];
 
-document.write(doesSubArrayExists(arr1));
-
-</script>
-
-</body>
-</html>
+consoke.log(doesSubArrayExists(arr1));
