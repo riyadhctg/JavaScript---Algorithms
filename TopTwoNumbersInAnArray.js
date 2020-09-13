@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Top Two Numbers In An Array</title>
-</head>
-<body>
-
-<script>
-
 var topTwoNumbers = function(arr) {
   var max1 = Number.MIN_VALUE;
   var max2 = Number.MIN_VALUE;
@@ -23,9 +14,5 @@ var topTwoNumbers = function(arr) {
 
 var arr1 = [2,4,6,12,89];
 
-document.write(topTwoNumbers(arr1));
+console.log(topTwoNumbers(arr1));
 
-</script>
-
-</body>
-</html>
