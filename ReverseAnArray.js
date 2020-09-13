@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Reverse an Array</title>
-</head>
-<body>
-
-<script>
-
 //Write a program to reverse an array or string
 
 var reversedArray = function (arr) {
@@ -28,10 +19,5 @@ var reversedArray = function (arr) {
 var arr1 = [1,2,3,4,5];
 var arr2 = ["mon", "tue", "wed", "thu", "fri"];
 
-document.write(reversedArray(arr1));
-document.write(reversedArray(arr2));
-
-</script>
-
-</body>
-</html>
+console.log(reversedArray(arr1));
+console.log(reversedArray(arr2));
