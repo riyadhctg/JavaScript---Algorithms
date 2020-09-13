@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Missing Number</title>
-</head>
-<body>
-
-<script>
-
 //How to Find Missing Number on Integer Array of 1 to 100
 
 var missingNumber = function (arr, totalCount) {
@@ -32,11 +23,5 @@ var arr1to100 = function () {
 };
 
 
-document.write(missingNumber(arr1to100(), 100));
+console.log(missingNumber(arr1to100(), 100));
 
-
-
-</script>
-
-</body>
-</html>
