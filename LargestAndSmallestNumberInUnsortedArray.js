@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Largest and Smallest Number in an Unsorted Array</title>
-</head>
-<body>
-
-<script>
-
 //How to find largest and smallest number in unsorted array
 
 var findLargestAndSmallest = function (arr) {
@@ -25,10 +16,5 @@ var findLargestAndSmallest = function (arr) {
 
 var arr1 = [1, 67, 56, 5 , 6, 0];
 
-document.write(findLargestAndSmallest(arr1));
+console.log(findLargestAndSmallest(arr1));
 
-
-</script>
-
-</body>
-</html>
