@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Pre, Post, In Order,  Traversals</title>
-</head>
-<body>
-
-<script>
-
 //Provde an example of pre, post, and in order traversals of a binary tree (to print all the nodes)
 
 // Pre Order
@@ -73,14 +64,8 @@ var binTree = {
   }
 };
 
-document.write("Pre Order: " + preOrder(binTree) + "\n");
-document.write("Post Order: " + postOrder(binTree) + "\n");
-document.write("In Order: " + inOrder(binTree) + "\n");
-document.write("BFT: " + bft(binTree) + "\n");
-document.write("Number of Leafs: " + countTreeLeaf(binTree) + "\n");
-
-
-</script>
-
-</body>
-</html>
+console.log("Pre Order: " + preOrder(binTree) + "\n");
+console.log("Post Order: " + postOrder(binTree) + "\n");
+console.log("In Order: " + inOrder(binTree) + "\n");
+console.log("BFT: " + bft(binTree) + "\n");
+console.log("Number of Leafs: " + countTreeLeaf(binTree) + "\n");
