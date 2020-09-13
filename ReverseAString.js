@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Reverse a String</title>
-</head>
-<body>
-
-<script>
-
 //Write a program to reverse a string
 
 var reversedString = function (str) {
@@ -20,9 +11,4 @@ var reversedString = function (str) {
 
 var str1 = "Hello World";
 
-document.write(reversedString(str1));
-
-</script>
-
-</body>
-</html>
+console.log(reversedString(str1));
